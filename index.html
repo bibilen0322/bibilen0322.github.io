@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Features | Layar</title>
+    <link rel="icon" href="img/arlogo.png" />
+    
+
+    <meta name="author" content="Layar">
+    <meta name="layar-version" content="a68425fdf88e, Thu Sep 29 14:29:18 2016 -0700, release, live-8.101.14">
+    <meta name="apple-itunes-app" content="app-id=334404207" />
+    <meta name="google-play-app" content="app-id=com.layar">
+    <meta name="apple-touch-icon" content="img/arlogo2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    
+    
+    <meta property="fb:app_id" content="136022836419634" />
+    <meta property="og:site_name" content="Layar" />
+    <meta property="og:title" content="Features | Layar" />
+    <meta property="og:description" name="description" content=" "/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="features.html" />
+    <meta property="og:image" content="img/arlog3.png" />
+
+
+
+    <!--[if lte IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+    <![endif]--><!-- ♥ -->
+
+    
+    <link rel="stylesheet" href="css/1.css">
+
+    
+
+    
+</head>
+
+<body ng-app="lyr.website">
+
+<!--[if lte IE 9]>
+<script src="https://d2nd2hlya8il3c.cloudfront.net/static/js/outdated-browser-warning.9e26667ac8c0.js"></script>
+<![endif]-->
+
+<div class="airlock">
+    
+    
+
+<header class="website-header"
+        ng-init="mobile.expand=false"
+        ng-class="{'mobile-expand': mobile.expand}">
+
+    <h1 class="website-logo">
+        <a href="/">Layar</a>
+        <div class="caption">Part of the <a href="https://www.blippar.com/">Blippar Group</a></div> <!--超链接-->
+    </h1>
+
+    <a class="mobile-menu" ng-click="mobile.expand=!mobile.expand"></a>
+
+    <nav>
+        <ul class="website-menu">
+            <li class="selected" >
+                <a href="/features/">Features</a>
+            </li>
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+            <li>
+                <a href="/solutions/">Solutions</a>
+            </li>
+            <li>
+                <a href="/support/">Support</a>
+            </li>
+            <li class="search" ng-init="addsearch = {showForm: false, inputValue: ''}"
+                lyr-addsearch-load
+                lyr-document-click="addsearch.showForm=false; addsearch.modelValue=''"
+                lyr-document-click-exclude=".website-menu .search, #addsearch-results"
+                ng-class="{'show-form': addsearch.showForm}"
+                ng-mouseenter="addsearch.showForm = true"
+                ng-mouseleave="addsearch.showForm = !!addsearch.modelValue">
+                <a class="search-icon">Search in Layar.com</a>
+                <form>
+                    <input type="text" class="addsearch" autofocus
+                           ng-model="addsearch.modelValue"
+                           placeholder="Type to search layar.com…">
+                    <a class="search-clear"
+                       ng-if="addsearch.modelValue"
+                       ng-click="addsearch.modelValue = ''">×</a>
+                </form>
+            </li>
+        </ul>
+
+        
+        <ul class="website-registration">
+    <li><a class="btn-link-lipstick mini" href="/accounts/register/">Free sign up</a></li>
+    <li><a href="/accounts/login/">Login</a></li>
+</ul>
+
+    </nav>
+
+</header>
+
+    
+
+    <section class="content">
+    
+    
+
+<header class="simple bleed  ">
+    <h1>AR技术的发展现状</h1>
+</header>
+
+    <section class="two-columns image-left  "
+    >
+    
+
+    
+        <figure class=""><img src="img/pic1.png" align="left" style="margin-left:-20px;margin-bottom:-20px;">
+</figure>
+    
+
+    
+        <div class="last "><div style="text-align: right; margin-top: 100px"><h2  style="font-size:34px;color:#00afcc;">Easily drag & drop<br/>engaging content</h2>
+<p style="font-size:14px;">With the Layar Creator, you can enhance flyers, postcards, packaging or any other item with interactive content, including video messages, Web and social links, photo slideshows, music clips and <a href="/features/all-features/" target="_blank">much more!</a></p></div> <!--超链接-->
+</div>
+    
+
+    
+</section>
+<div style="margin-top:20px;margin-bottom:20px;"><h1 style="text-align:center;font-size:34px;">Transform everyday objects into…</h1></div><section class="four-columns column  "
+    >
+    
+    <figure>
+        <img src="img/pic2.png">
+<br><br><br><br>
+<h3 align="center">A multimedia player</h3>
+<br>
+<p>Bring print to life with rich media, including video messages, photo slideshows and music clips.</p>
+    </figure>
+
+
+    <figure>
+        <img src="img/pic3.png">
+<br><br><br><br>
+<h3 align="center">A social media hub</h3>
+<br>
+<p>Encourage interaction with links to share, follow and like your content on various social media networks.</p>
+    </figure>
+
+    <figure>
+        <img src="img/pic4.png">
+<br><br><br><br>
+<h3 align="center">A conversation</h3>
+<br>
+<p>Find new ways to connect quickly via email or phone and with instant interactive polls and surveys.</p>
+    </figure>
+
+
+    <figure>
+        <img src="img/pic5.png">
+<br><br><br><br>
+<h3 align="center">Whatever you imagine</h3>
+<br>
+<p>Use your creativity by embedding HTML, allowing other apps to open and other advanced features.</p>
+    </figure>
+    
+</section>
+<div style="margin-bottom:70px;">
+<center>
+<a class="btn-caged-link-lipstick" href="/features/inspiration/">Get Inspired</a> <!--超链接-->
+</center>
+</div>
+
+<header class="banner medium bleed  normal"
+        style="background-image: url(img/pic6.jpg);
+               background-color:#171731;
+               max-height:640px;">
+
+    
+    
+</header>
+<section class="simple-content  "
+    >
+    <div style="margin-top:40px;"><h1>Track &amp; analyze your results</h1></div>
+</section>
+<section class="five-columns   "
+    >
+    
+    <figure>
+        <img src="img/pic7.png">
+<p>Page Views</p>
+
+    </figure>
+
+    <figure>
+        <img src="https://static.layar.com/website/2015/interactions2.png">
+<p>Interactions</p>
+    </figure>
+
+    <figure>
+        <img src="https://static.layar.com/website/2015/uniqueusers2.png">
+<p>Unique Users</p>
+    </figure>
+
+    <figure>
+        <img src="https://static.layar.com/website/2015/percountry2.png">
+<p>Users Per Country</p>
+    </figure>
+
+    <figure>
+        <img src="https://static.layar.com/website/2015/pagelevel2.png">
+<p>Page &amp; Button Stats</p>
+    </figure>
+    
+</section>
+<img src="https://d2x7k8egu2916k.cloudfront.net/layar_2015/features/track.png" style="display:block;margin:20px auto 0;">
+
+<header class="banner medium bleed  normal"
+        style="background-image: url(https://static.layar.com/headings/platforms.jpg);
+               background-color:#311c45;
+               max-height:630px;">
+
+    
+    
+</header>
+<section class="simple-content  bleed"
+    >
+    <div style="margin-top:40px;margin-bottom:20px;"><h1 style="font-size:34px;">Layar by the numbers</h1>
+<br><br>
+<img src="https://d2x7k8egu2916k.cloudfront.net/layar_2015/features/block.png"></div>
+<div style="margin-bottom:70px;margin-top:60px;"><h3 style="margin-top:-50px;margin-bottom:25px;">TRY IT YOURSELF &amp; CREATE AN AMAZING EXPERIENCE IN MINUTES</h3>
+<a class="btn-caged-link-lipstick" href="/accounts/register/">Get started for free</a></div>
+</section>
+
+    
+
+    </section>
+</div>
+
+
+
+<footer>
+    <nav>
+        <div class="row">
+            <div class="c1">
+                <h3>Want to know more?</h3>
+                <ul>
+                    <li><a href="/about/">About Layar</a></li>
+                    <li><a href="/news/blog/">Blog</a></li>
+                    <li><a href="/news/events/">Events &amp; Webinars</a></li>
+                    <li><a href="/about/jobs/">Jobs</a></li>
+                    <li><a href="/legal/">Legal</a></li>
+                </ul>
+                <h3>Have a question?</h3>
+                <ul>
+                    <li><a href="http://help.layar.com/">Help Center</a></li>
+                    <li><a href="/about/contact/">Contact Us</a></li>
+                </ul>
+            </div>
+            <ul class="c2">
+                <li class="c2-partners">
+                    <h3>Layar Partner Network</h3>
+                    <a href="/solutions/partners/">Become a certified partner or find one in your region.</a>
+                </li>
+                <li class="c2-developers">
+                    <h3>Developer tools</h3>
+                    <a href="/features/developers/">Build your own Augmented Reality experiences.</a>
+                    <br /><a href="/documentation/">Developer Documentation</a>
+                </li>
+                <li class="c2-download">
+                    <h3>Download Layar assets</h3>
+                    <a href="http://static.layar.com/website/LayarLogoAssets.zip">Layar Campaign Assets</a>
+                    <br /><a href="http://static.layar.com/website/LayarPressMaterials.zip">Press Materials</a>
+                </li>
+            </ul>
+            <div class="c3">
+                <div class="subscribe">
+                    <h3>Stay in touch</h3>
+                    <p>Receive our latest updates.</p>
+                    <button type="button" data-url="/marketing/newsletter/" data-wgt="lightbox">Subscribe to Our Newsletter</button>
+                </div>
+                <ul class="social">
+                    <li class="youtube">
+                        <a href="//www.youtube.com/user/layarmobile"
+                           target="_blank">YouTube</a>
+                    </li>
+                    <li class="twitter">
+                        <a href="//twitter.com/layar" target="_blank">Twitter</a>
+                    </li>
+                    <li class="facebook">
+                        <a href="//www.facebook.com/augmented.reality.layar"
+                           target="_blank">Facebook</a>
+                    </li>
+                    <li class="googleplus">
+                        <a href="//plus.google.com/u/1/110031712015403807836/posts"
+                           target="_blank">Google+</a>
+                    </li>
+                    <li class="pinterest">
+                        <a href="//www.pinterest.com/layar"
+                           target="_blank">Pinterest</a>
+                    </li>
+                    <li class="linkedin">
+                        <a href="//www.linkedin.com/company/layar"
+                           target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+<dl class="craft">
+    <dt>Crafted in</dt>
+    <dd><a href="/about/team/">Amsterdam</a></dd>
+</dl>
+</footer>
+
+
+
+
+    <script src="js/1.js"></script>
+
+    <script src="js/2.js"></script>
+
+    <script src="js/3.js"></script>
+
+    <script src="//addsearch.com/js/?key=5e1287c0dbda96ece589eeead2b9e8d2"></script>
+
+    
+    
+
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WC63SX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WC63SX');
+</script>
+<!-- End Google Tag Manager -->
+
+
+    
+    <div class="remarketing-banner" data-wgt="remarketing-banner" title="Click to hide this message">
+        We use <a href="/legal/privacy-policy/#5">cookies</a> to improve our services.
+        Don’t worry, they don’t store personal or sensitive information and you can disable them at any time in your browser settings.
+        <img src="https://d2nd2hlya8il3c.cloudfront.net/static/2013layar/img/remarketing/close.5c73dbccd071.png">
+    </div>
+
+
+
+</body>
+</html>
